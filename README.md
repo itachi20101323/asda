@@ -243,41 +243,25 @@ Cart_Nova/
 │
 └── backend/
     └── Coming Soon
-PHASE 1 — FRONTEND
-│
-├── Project Planning              ✅
-├── UI/UX Design                  ✅
-├── HTML Structure                ✅
-├── CSS Styling                   ✅
-├── Responsive Design             ✅
-├── JavaScript Interactions       ✅
-└── Frontend Pages                ✅
-        │
-        ▼
-PHASE 2 — BACKEND
-│
-├── Spring Boot Setup             ⏳
-├── REST API                      ⏳
-├── Controller Layer              ⏳
-├── Service Layer                 ⏳
-├── Repository Layer              ⏳
-└── Authentication                ⏳
-        │
-        ▼
-PHASE 3 — DATABASE
-│
-├── Spring Data JPA               ⏳
-├── Hibernate                     ⏳
-├── MySQL Database                ⏳
-├── Database Relationships        ⏳
-└── CRUD Operations               ⏳
-        │
-        ▼
-PHASE 4 — FULL STACK
-│
-├── Frontend + Backend Integration ⏳
-├── User Authentication            ⏳
-├── Cart API                       ⏳
-├── Order API                      ⏳
-├── Admin API                      ⏳
-└── Complete E-Commerce System     ⏳
+🔄 User Flow
+              🏠 HOME
+                 │
+                 ▼
+          🛍️ PRODUCTS
+                 │
+                 ▼
+         📦 PRODUCT DETAILS
+                 │
+          ┌──────┴──────┐
+          │             │
+          ▼             ▼
+      ❤️ WISHLIST    🛒 CART
+                        │
+                        ▼
+                    💳 CHECKOUT
+                        │
+                        ▼
+                  📋 ORDER PLACED
+                        │
+                        ▼
+                    👤 PROFILE
