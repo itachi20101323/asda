@@ -199,3 +199,47 @@ The planned architecture of CartNova follows a standard full-stack e-commerce st
               │                   MySQL
               │
               └──────── REST API ───┘
+Cart_Nova/
+│
+├── frontend/
+│   │
+│   ├── admin/
+│   │   ├── dashboard.html
+│   │   ├── orders.html
+│   │   ├── products.html
+│   │   └── users.html
+│   │
+│   ├── assets/
+│   │
+│   ├── css/
+│   │   ├── style.css
+│   │   └── responsive.css
+│   │
+│   ├── data/
+│   │
+│   ├── js/
+│   │   ├── admin.js
+│   │   ├── api.js
+│   │   ├── app.js
+│   │   ├── auth.js
+│   │   ├── cart.js
+│   │   ├── checkout.js
+│   │   ├── data.js
+│   │   ├── orders.js
+│   │   ├── products.js
+│   │   └── profile.js
+│   │
+│   ├── index.html
+│   ├── products.html
+│   ├── product-details.html
+│   ├── cart.html
+│   ├── checkout.html
+│   ├── login.html
+│   ├── register.html
+│   ├── orders.html
+│   └── profile.html
+│
+├── README.md
+│
+└── backend/
+    └── Coming Soon
