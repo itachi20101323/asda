@@ -1,91 +1,41 @@
-```html
 <div align="center">
 
-  <!-- Logo -->
-  <img src="icon-512.png" alt="CodeTrail Logo" width="130" />
+<!-- Holographic Glitch/Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=65&duration=2000&pause=500&color=00F0FF&center=true&vCenter=true&width=1000&height=120&lines=%E2%9A%A1+CARTNOVA+%E2%9A%A1;BEAST+MODE+ECOMMERCE;ZERO+LATENCY+%7C+MAX+CONVERSION" alt="CartNova Beast Animation" />
 
-  <!-- Animated Main Heading -->
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=45&duration=2500&pause=1000&color=2DD4BF&center=true&vCenter=true&width=750&height=80&lines=CODETRAIL;TRACK+EVERY+PROBLEM;SOLVE.+REVISIT.+REPEAT." alt="CodeTrail" />
+<!-- Sub-Tagline with Smooth Transition -->
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=850&height=50&lines=Immersive+UX+%E2%80%A2+Lightning+Fast+%E2%80%A2+Infinite+Scalability;Engineered+for+The+Future+of+Digital+Shopping;Built+with+Obsession" alt="CartNova Tagline" />
 
-  <!-- Animated Tagline -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=4F46E5&center=true&vCenter=true&width=700&lines=Your+Personal+Coding+Companion;Track.+Analyze.+Improve.;Build+Consistency+One+Problem+at+a+Time;Your+Progress%2C+Your+Journey." alt="CodeTrail Tagline" />
+<br>
 
-  <br/>
-
-  <!-- Project Description -->
-  <p>
-    <b>Master DSA. Track Your Progress. Never Forget a Problem.</b>
-  </p>
-
-  <!-- Animated Divider -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2DD4BF,50:4F46E5,100:0F172A&height=3&section=header" width="100%" />
-
-  <br/>
-
-  <!-- Status Badges -->
-  <img src="https://img.shields.io/badge/Platform-Web%20%7C%20PWA-2DD4BF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Platform" />
-  <img src="https://img.shields.io/badge/Sync-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets Sync" />
-  <img src="https://img.shields.io/badge/Focus-DSA%20%26%20Consistency-4F46E5?style=for-the-badge&logo=leetcode&logoColor=white" alt="DSA Focus" />
-
-  <br/><br/>
-
-  <!-- Feature Highlights -->
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <h3>📊 Smart Analytics</h3>
-        Visualize your progress, solve rate, and problem-solving trends.
-      </td>
-      <td align="center" width="33%">
-        <h3>🔁 Revision System</h3>
-        Revisit difficult problems with revision reminders and review tracking.
-      </td>
-      <td align="center" width="33%">
-        <h3>☁️ Cloud Sync</h3>
-        Keep your coding records synchronized with Google Sheets.
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <h3>🔥 Streak Tracker</h3>
-        Build daily coding habits and maintain your consistency.
-      </td>
-      <td align="center">
-        <h3>🎯 Goal Tracking</h3>
-        Set daily targets and monitor your completion rate.
-      </td>
-      <td align="center">
-        <h3>🔍 Smart Search</h3>
-        Filter problems by topic, difficulty, platform, and status.
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <!-- Tech Stack -->
-  <h3>⚡ Built With</h3>
-
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,github" alt="Technology Stack" />
-
-  <br/><br/>
-
-  <!-- Project Links: Replace placeholders -->
-  <a href="YOUR_LIVE_DEMO_URL">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-Explore_CodeTrail-2DD4BF?style=for-the-badge" alt="Live Demo" />
-  </a>
-
-  <a href="YOUR_REPOSITORY_URL">
-    <img src="https://img.shields.io/badge/⭐_Star_on_GitHub-Support_the_Project-4F46E5?style=for-the-badge" alt="Star on GitHub" />
-  </a>
-
-  <br/><br/>
-
-  <i>"Consistency beats intensity. One problem at a time."</i>
-
-  <br/><br/>
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20,24&height=100&section=footer" width="100%" />
+<!-- Cyberpunk Status & Tech Badges (High Contrast) -->
+<p>
+  <img src="https://img.shields.io/badge/STATUS-BEAST_MODE_ACTIVE-FF0055?style=for-the-badge&logo=fireart-studio&logoColor=white&labelColor=111111" />
+  <img src="https://img.shields.io/badge/CORE-HTML5_%7C_CSS3_%7C_JS-00F0FF?style=for-the-badge&logo=javascript&logoColor=black&labelColor=111111" />
+  <img src="https://img.shields.io/badge/UX-GLASSMORPHISM-7928CA?style=for-the-badge&logo=css3&logoColor=white&labelColor=111111" />
+  <img src="https://img.shields.io/github/last-commit/ayuzh98/CartNova?style=for-the-badge&color=00F0FF&labelColor=111111" />
+</p>
 
 </div>
-```
+
+---
+
+<div align="center">
+
+### ⚡ THE CARTNOVA ARCHITECTURE
+
+| Layer | Implementation | Status |
+| :--- | :--- | :--- |
+| **🚀 Hyper-Speed UI** | Optimized DOM manipulation & zero layout-shift. | `OPTIMIZED` |
+| **💎 Glassmorphic UX** | Frosted glass components with dynamic neon backlighting. | `ACTIVE` |
+| **🛍️ State Engine** | Instant cart calculations with persistent local storage. | `READY` |
+| **📱 Omni-Responsive** | Fluid layouts engineered for mobile, tablet, and 4K displays. | `COMPLETED` |
+
+</div>
+
+<br>
+
+<div align="center">
+  <!-- Dynamic Animated Footer Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=wavy&color=gradient&customColorList=0,4,15,22&height=65&section=footer&animation=fadeIn" width="100%" />
+</div>
