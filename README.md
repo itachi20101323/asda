@@ -1,32 +1,7 @@
-.product-card {
-  background: rgba(20, 20, 30, 0.6);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 240, 255, 0.1);
-  border-radius: 16px;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  position: relative;
-  overflow: hidden;
-  color: #fff;
-}
+<div align="center">
 
-.product-card:hover {
-  transform: translateY(-10px) scale(1.03);
-  border-color: #00f0ff;
-  box-shadow: 0 15px 35px rgba(0, 240, 255, 0.2), 
-              inset 0 0 20px rgba(0, 240, 255, 0.05);
-}
+<!-- Holographic Glitch/Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=65&duration=2000&pause=500&color=00F0FF&center=true&vCenter=true&width=1000&height=120&lines=%E2%9A%A1+CARTNOVA+%E2%9A%A1;BEAST+MODE+ECOMMERCE;ZERO+LATENCY+%7C+MAX+CONVERSION" alt="CartNova Beast Animation" />
 
-/* Subtle Light Sweep Effect */
-.product-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: -100%;
-  width: 50%; height: 100%;
-  background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);
-  transform: skewX(-25deg);
-  transition: all 0.7s ease;
-}
-
-.product-card:hover::before {
-  left: 200%;
-}
+<!-- Sub-Tagline with Smooth Transition -->
+<img src="
