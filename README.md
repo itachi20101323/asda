@@ -1,41 +1,32 @@
-<div align="center">
+.product-card {
+  background: rgba(20, 20, 30, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 240, 255, 0.1);
+  border-radius: 16px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
 
-<!-- Holographic Glitch/Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=65&duration=2000&pause=500&color=00F0FF&center=true&vCenter=true&width=1000&height=120&lines=%E2%9A%A1+CARTNOVA+%E2%9A%A1;BEAST+MODE+ECOMMERCE;ZERO+LATENCY+%7C+MAX+CONVERSION" alt="CartNova Beast Animation" />
+.product-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  border-color: #00f0ff;
+  box-shadow: 0 15px 35px rgba(0, 240, 255, 0.2), 
+              inset 0 0 20px rgba(0, 240, 255, 0.05);
+}
 
-<!-- Sub-Tagline with Smooth Transition -->
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=850&height=50&lines=Immersive+UX+%E2%80%A2+Lightning+Fast+%E2%80%A2+Infinite+Scalability;Engineered+for+The+Future+of+Digital+Shopping;Built+with+Obsession" alt="CartNova Tagline" />
+/* Subtle Light Sweep Effect */
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 50%; height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);
+  transform: skewX(-25deg);
+  transition: all 0.7s ease;
+}
 
-<br>
-
-<!-- Cyberpunk Status & Tech Badges (High Contrast) -->
-<p>
-  <img src="https://img.shields.io/badge/STATUS-BEAST_MODE_ACTIVE-FF0055?style=for-the-badge&logo=fireart-studio&logoColor=white&labelColor=111111" />
-  <img src="https://img.shields.io/badge/CORE-HTML5_%7C_CSS3_%7C_JS-00F0FF?style=for-the-badge&logo=javascript&logoColor=black&labelColor=111111" />
-  <img src="https://img.shields.io/badge/UX-GLASSMORPHISM-7928CA?style=for-the-badge&logo=css3&logoColor=white&labelColor=111111" />
-  <img src="https://img.shields.io/github/last-commit/ayuzh98/CartNova?style=for-the-badge&color=00F0FF&labelColor=111111" />
-</p>
-
-</div>
-
----
-
-<div align="center">
-
-### ⚡ THE CARTNOVA ARCHITECTURE
-
-| Layer | Implementation | Status |
-| :--- | :--- | :--- |
-| **🚀 Hyper-Speed UI** | Optimized DOM manipulation & zero layout-shift. | `OPTIMIZED` |
-| **💎 Glassmorphic UX** | Frosted glass components with dynamic neon backlighting. | `ACTIVE` |
-| **🛍️ State Engine** | Instant cart calculations with persistent local storage. | `READY` |
-| **📱 Omni-Responsive** | Fluid layouts engineered for mobile, tablet, and 4K displays. | `COMPLETED` |
-
-</div>
-
-<br>
-
-<div align="center">
-  <!-- Dynamic Animated Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=wavy&color=gradient&customColorList=0,4,15,22&height=65&section=footer&animation=fadeIn" width="100%" />
-</div>
+.product-card:hover::before {
+  left: 200%;
+}
